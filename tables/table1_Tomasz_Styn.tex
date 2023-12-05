@@ -1,0 +1,30 @@
+\begin{table}[hbtp]
+    \centering
+    \caption{Porównanie czasu renderowania poszczególnych warstw}\vspace{0.5ex}
+    \begin{tabular}{|| c c c c ||}
+        \hline
+        Warstwa & Opis & Sample & Czas [mm:ss] \\ [0.5ex]
+        \hline\hline
+        Mist & Warstwa głębi & 64 & 00:29.17 \\
+        \hline
+        Rain & Deszcz & 1024 & 00:08.20 \\
+        \hline
+        FG & Foreground - pierwszy plan & 512 &   00:37.97 \\
+        \hline
+        AC & Akcja bliżej kamery & 2048 &  01:01.40 \\
+        \hline
+        Gr & Ground - podłoże & 1024 & 00:46.99 \\
+        \hline
+        AM & Akcja w środkowym planie & 1024 & 00:27.05 \\
+        \hline
+        MC & Bliższy midground & 512 & 00:45.43 \\
+        \hline
+        MF & Dalszy midground & 1024 & 01:19.08 \\
+        \hline
+        BgC & Tło bliżej & 512 & 00:23.07 \\
+        \hline
+        BgF & Tło dalej & 256 & 03:11.22 \\ [1ex]
+        \hline
+    \end{tabular}
+    \label{tab:render-info}
+\end{table}
